@@ -1,0 +1,52 @@
+#import turtle 
+#t = turtle.TurtleÅiÅj
+
+t.home()
+t.clear()
+
+for i in range(4)
+  t.forward(100)
+  t.left(90)
+
+t.home()
+t.left(90)
+t.forward(110)
+
+for i in range(8)
+  t.forward(100)
+  t.forward(-100)
+  t.left(-90)
+  t.foward(10)
+  t.left(90)
+  
+ rect(100,100,100)
+ t.clear()
+ 
+  
+t.clear()
+rect(0,0,100)10)
+rect(-120,0,100)
+
+for x in [0,20,40,60,80,100]:
+yline(x,120,100)
+yline(x,120,120,100)
+
+t.clear()
+rect(110,-110,100)
+rect(100,0,100)
+rect(0,-110,100)
+rect(0,0,100)
+
+t.home()
+t.clear()
+t.circle(100)
+
+def circle(x,y,r):
+t.up()
+t.home()
+t.forward(x)
+t.left(90)
+t.forward(y)
+
+circle(100,100,50)
+circle(100,-100,50)
